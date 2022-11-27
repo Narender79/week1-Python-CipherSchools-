@@ -1,0 +1,9 @@
+main=input()
+l=len(main)-1
+s=0
+i=0
+while(0<=l):
+    s=int(main[i])+s
+    i=i+1
+    l=l-1
+print(s)

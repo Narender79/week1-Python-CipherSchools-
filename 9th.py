@@ -1,0 +1,13 @@
+name=input("Enter the name: ")
+l=len(name)-1
+temp=""
+i=0
+while(0<=l):
+    if name[i] not in temp:
+        temp=temp + name[i]
+        print(name[i],"is:",end="")
+        print(name.count(name[i]))
+    i=i+1
+    l=l-1
+    
+    
