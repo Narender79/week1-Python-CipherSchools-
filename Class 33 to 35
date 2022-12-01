@@ -1,0 +1,13 @@
+#Class 33
+n="naReNdEr"
+print(len(n))
+print(n.lower())
+print(n.upper())
+print(n.title())
+print(n.count("n")
+
+#Class 35      
+n=input("Enter the name: ")
+c=input("Enter the charcter: ")
+print(len(n))
+print(n.count(c))
