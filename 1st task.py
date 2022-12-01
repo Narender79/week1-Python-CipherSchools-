@@ -1,3 +1,6 @@
+#CLass 10
+print("line a \nline b \n line c")
+#CLass 14
 print("this is \\\\ double backslash")
 print("these are /\\ /\\ /\\ mountain")
 print("he is \tawsome")
