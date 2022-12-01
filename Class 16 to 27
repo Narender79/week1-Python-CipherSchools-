@@ -1,0 +1,38 @@
+#Class 16
+print("\U0001F602")
+#Class 17
+print(2**0.5)
+print((2+3)/2)
+print(2**3**2)
+
+#Class 18
+name="Narender"
+print(name)
+
+#Class 20
+n1="narender"
+n2="yadav"
+print(n1+n2)
+
+#Class 21
+name=str(input("enter your name: "))
+print("hello"+name)
+
+#CLass 22
+num=int(21)
+name=str("48")
+num1=float(4.03)
+print(num+num1)
+
+#Class 24
+name,age=input("enter your name and age: ").spilt(",")
+print(name)
+print(age)
+
+#Class 27
+
+a=int(input())
+b=int(input())
+c=int(input())
+
+print(f"the averarge of three no. is:{(int(a)+int(b)+int(c))/3} ")
