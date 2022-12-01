@@ -1,0 +1,12 @@
+#Class 28
+s="narender"
+l=len(s)
+for i in range(0,l):
+  print(s[i])
+ 
+#Class 29
+print(s[:3])
+
+#Class 32
+n=input("Enter your name: ")
+print(f"{n[-1::-1]}")
