@@ -1,0 +1,28 @@
+#Class 36
+n,char=input("enter comma seprated name and character: ").spilt(",")
+print(f"length of your name is{len(n)}")
+print(f"character count: {n.sptrip().lower().count(char.strip().lower())}")
+n.sptrip().lower().count(char.strip().lower())
+char.strip().lower()
+
+#Class 37
+s="she is beautiful and she is a good dancer"
+i=s.find("is")
+i1=s.find("is",i+1)
+print(i1)
+
+#Class 39
+s="string"
+ns=s.replace('t','T')
+print(ns)
+
+#Class 46
+win=27
+num=int(input("Enter the no.: "))
+if num==win:
+	print("YOU WIN!!!")
+else:
+	if num>win:
+		print("Entered no. is too high")
+	else:
+		print("Entered no. is too low")
